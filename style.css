@@ -12,3 +12,10 @@ width: 600px;
         p{
             color: white;
         }
+
+        @media (min-width: 400px) {
+
+            img{
+width: 450px;
+        }
+        }
