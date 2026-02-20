@@ -10,7 +10,7 @@ body {
 img {
     width: 400px;
     height: 400px;
-    object-fit: contain; /* prevents distortion */
+    object-fit:cover; /* prevents distortion */
 }
 
 p {
