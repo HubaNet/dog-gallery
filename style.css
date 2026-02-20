@@ -1,28 +1,35 @@
-body{
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-color: black;
-        }
-        img{
-width: 400px;
-        }
-        p{
-            color: white;
-            text-align: center;
-        }
-        div{
-            display: flex;
-            flex-direction: row;
-            justify-content:flex-end;
-                 align-items:center;
-         }
-         button{
-            width: 100px;
-            height: 50px;
-            font-size: 30px;
-         }
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
 
-        
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain; /* prevents distortion */
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* spreads buttons to edges */
+    align-items: center;
+    width: 400px; /* match image width so buttons align with it */
+    gap: 10px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    cursor: pointer; /* improves UX */
+}
